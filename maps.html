@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Find nearby Recycling Centers</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var danny = {lat: 37.370432, lng: -121.957759};
+        var nex = {lat: 37.329191, lng: -121.966697};
+        var bay = {lat: 37.379944, lng: -121.910950};
+        var abc = {lat: 37.309358, lng: -121.977081};
+        var bill = {lat:37.320945, lng: -122.032933};
+        var adi = {lat: 37.418727, lng: -122.015566};
+        var pra = {lat: 37.420948, lng: -122.095786};
+        var cu3 = {lat: 37.361002, lng: -121.895774};
+        var hack = {lat: 37.408206, lng: -122.071378};
+        var rec = {lat:37.354107, lng:-121.955238};
+        
+        
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: danny
+        });
+            
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: hack
+        });
+          var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: rec
+        });
+         var map = new google.maps.Map(document.getElementById('map'),{
+          zoom: 4,
+          center: bill
+        });
+        
+         var map = new google.maps.Map (document.getElementById('map'),{
+          zoom: 4,
+          center: cu3
+        });
+        
+         var map = new google.maps.Map(document.getElementById('map'),{
+          zoom: 4,
+          center: pra
+        });
+        
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: abc
+        });
+        
+        
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: nex
+        });
+        
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: adi
+        });
+        
+        
+         var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+		  center: bay
+        });
+        
+         var marker = new google.maps.Marker({
+          position: danny,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: rec,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: bill,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: hack,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: pra,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: cu3,
+          map: map
+        });
+         var marker = new google.maps.Marker({
+          position: nex,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: bay,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: adi,
+          map: map
+        });
+        
+         var marker = new google.maps.Marker({
+          position: abc,
+          map: map
+        });
+      }
+      
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Tet0-VAzbB7_-z3wcH9-2nQQRzVSnjY&callback=initMap">
+    </script>
+  </body>
+</html>
