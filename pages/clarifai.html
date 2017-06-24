@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+    <style>
+    html{ 
+    background: url(bgimage.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Clarifai JavaScript Stater</title>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -83,23 +96,11 @@
   </style>
 </head>
 <body>
-  <div id="Title" style="font-size:48px; font-face:Arial; margin-bottom:20px;"><img src="logo.png" id="logo"/>&nbsp;Model Tester!</div>
-  <div id="Model_Title" style="font-size:16px; margin-bottom:5px">Model</div>
+  <div id="Title" style="font-size:48px; font-face:Arial; margin-bottom:20px; text-align:left; color:grey;"><img src="logo.png" style="width:200px;height:150px;" id="logo"/>&nbsp;Model Tester!</div>
+  <div id="Model_Title" style="font-size:16px; margin-bottom:5px"></div>
   <input type="hidden" id="hidden-counter" name="hidden-counter" value="1"/>
   <form action="" style="font-size:14px; margin-bottom:20px; float:left; margin-right:30px;">
-    <input type="radio" name="model" value="general" checked="checked"> General<br>
-    <input type="radio" name="model" value="food"> Food<br>
-    <input type="radio" name="model" value="NSFW"> NSFW<br>
-    <input type="radio" name="model" value="travel"> Travel<br>
-    <input type="radio" name="model" value="wedding"> Wedding<br>
-    <input type="radio" name="model" value="color"> Color<br>
-    <input type="radio" name="model" value="apparel"> Apparel<br>
-    <input type="radio" name="model" value="faces"> Faces<br>
-    <input type="radio" name="model" value="demographic"> Demographic<br>
-    <input type="radio" name="model" value="celebrity"> Celebrity<br>
-    <input type="radio" name="model" value="logo"> Logo<br>
-    <input type="radio" name="model" value="focus"> Focus<br>
-    <input type="radio" name="model" value="custom"> Custom &nbsp;<select id="custom_models_dropdown"></select><br>
+    <input type="radio" name="model" value="general" checked="checked"><br>
   </form>
   <div style="float:left">
     <button onclick="
