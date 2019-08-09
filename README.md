@@ -1,4 +1,12 @@
 # Repsychology
+``` bash
+' 
+1st Place Award for Best Overall Mobile Application in CU3 Hacks Competition July 2017
+ $100 Awarded for 1st Place Award
+
+ Media Coverage from Carnegie Mellon University College of Engineering: 
+ https://engineering.cmu.edu/news-events/news/2017/08/31-sv-hackathon-library.html
+```
 
 Repsychology is an application developed to prevent the waste of potential reusable materials to promote an eco-friendly
 environment by seamlessly integrating a trained Clarifai Computer Vision Artificial Intelligence model to determining the data
