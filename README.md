@@ -32,7 +32,8 @@ centers buy the cleaned recyclates are bought.
 
 ## Creator
 
-The HTML Website was created by Aditya Sharma, Bill Xiang, & Pranava Parasa
+The HTML Website was created by Aditya Sharma, Bill Xiang, & Pranava Parasa.
+
 The Android Application was created by Nikhil Pillai & Aayush Bhat
 
 Credits: 
