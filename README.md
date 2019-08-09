@@ -1,36 +1,43 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/)
-[![CDNJS](https://img.shields.io/cdnjs/v/startbootstrap-sb-admin-2.svg)](https://cdnjs.com/libraries/startbootstrap-sb-admin-2)
+# Repsychology
 
-[SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Repsychology is an application developed to prevent the waste of potential reusable materials to promote an eco-friendly
+environment by seamlessly integrating a trained Clarifai Computer Vision Artificial Intelligence model to determining the data
+of images then prompting the user to the nearest disposal center via Google Maps API.
 
-## Getting Started
+## Introduction
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git`
-* Fork the repo
+Recycling is a broad subject, and reason is being that a broad range of materials can be recycled, and the goal of recycling
+is to provide the optimal alternative means to of disposal as opposed to “conventional” waste disposal such as incineration
+methods. The process prevent of the waste of potentially reusable materials as well as reducing negative environmental impact
+including but not limited to water pollution(landfill) and air pollution(incineration). 
 
-## Using the Source Files
+Expanding on the topic of protecting the environment, recycling is recognized as the third part of the three Rs waste
+hierarchy, where one takes steps before even disposal, by the processes of reducing and reusing. Reducing means to take action
+to reduce the amount of waste that a household or factory may produce. Reusing encompasses making the most efficient use of
+recovered materials. Participating in all three steps is representative of the bigger picture in environmental protection.
 
-After cloning the repo take a look at the `gulpfile.js` and check out the tasks available:
-* `gulp` The default task will compile the LESS and JS into the `dist` directory and minify the output, and it will copy all vendor libraries from `bower_components` into the `vendor` directory
-* `gulp dev` The dev task will serve up a local version of the template and will watch the LESS, JS, and HTML files for changes and reload the browser windo automatically
+The kinds of materials that can be recycled are known as recyclable materials, and these include varieties of glass,
+cardboard, plastic, paper, as well as salvaging certain products from more complex products, like electronics. This may be
+done due to the containment of gold in circuit boards, or because of the containment of hazardous chemicals, such as the
+liquid mercury that is present in many thermometers. Although the decomposition of biodegradable waste demonstrated in
+composting is technically considered a form of recycling, this will be neglected as the main focus of the topic, concerning
+non-biodegradable materials, such as the aforementioned, and will be removed from food packages during the rinsing process. 
 
-To update dependencies, run `bower update` and then run `gulp copy` to copy the updated dependencies into the `vendor` directory
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
+There are a number of different collection methods that are available: curbside collection usually starts with a waste
+collection vehicle, but then branches into a central sorting system, where any wrongly placed materials are thrown out, as
+opposed to the single-stream system where greater public education is more greatly emphasized in importance. These two methods
+are recognized as mixed waste collection, while source separation is much more cost-extensive in the fact that all material is
+cleaned and sorted prior to collection. Drop-off centers simply collect it and send it to a centralized location. Buy-back
+centers buy the cleaned recyclates are bought.
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+The HTML Website was created by Aditya Sharma, Bill Xiang, & Pranava Parasa
+The Android Application was created by Nikhil Pillai & Aayush Bhat
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Credits: 
+Website was created during a hacakthon and therefore Start Bootstrap Template was used. Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
 ## Copyright and License
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/gh-pages/LICENSE) license.
+Copyright 2016 HackApp30. Developed by Aditya Sharma. All Rights Reserved.
